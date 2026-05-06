@@ -1,7 +1,8 @@
 {
-  "name": "@knowledge-graph/api",
+  "name": "@llm-wiki-viz/api",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
@@ -10,7 +11,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@knowledge-graph/shared": "*",
+    "@llm-wiki-viz/shared": "*",
     "chokidar": "^4.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",

@@ -3,7 +3,7 @@ import type {
   GraphData,
   HealthResponse,
   MarkdownDoc,
-} from "@knowledge-graph/shared";
+} from "@llm-wiki-viz/shared";
 
 async function getJSON<T>(url: string): Promise<T> {
   const res = await fetch(url);

@@ -1,8 +1,21 @@
 {
-  "name": "knowledge-graph",
+  "name": "llm-wiki-viz",
   "version": "0.1.0",
   "private": true,
-  "description": "Obsidian-style local markdown viewer with backlinks and a node graph",
+  "description": "Local Obsidian-style markdown viewer with backlinks and an interactive force-directed node graph.",
+  "license": "MIT",
+  "author": "Shanika Wijerathna",
+  "keywords": [
+    "markdown",
+    "wiki",
+    "obsidian",
+    "knowledge-graph",
+    "backlinks",
+    "force-graph",
+    "react",
+    "express",
+    "typescript"
+  ],
   "workspaces": [
     "apps/*",
     "packages/*"

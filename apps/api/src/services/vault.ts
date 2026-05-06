@@ -1,6 +1,6 @@
 import { readdir, stat } from "node:fs/promises";
 import path from "node:path";
-import type { FileNode } from "@knowledge-graph/shared";
+import type { FileNode } from "@llm-wiki-viz/shared";
 import { toVaultPath } from "../util/paths.js";
 
 const IGNORED_DIRS = new Set([".git", "node_modules", ".obsidian", ".vscode"]);
